@@ -1,12 +1,12 @@
-langage: python
+language: python
 dist: trusty
 branches:
-        only:
+  only:
     - master
     - dev
 python:
-    -"2.7"
-    -"2.6"
+  -"2.7"
+  -"2.6"
 script:
     -sh -e ./test.sh
 
