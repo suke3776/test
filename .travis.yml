@@ -5,8 +5,8 @@ branches:
     - master
     - dev
 python:
-  -"2.7"
-  -"2.6"
+  - "2.7"
+  - "2.6"
 script:
     -sh -e ./test.sh
 
